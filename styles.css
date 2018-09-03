@@ -1,0 +1,337 @@
+/* ---------------------------- G E N E R A L -----------------------------*/
+:root {
+    --purple-light: rgb(190, 160, 242);
+    --purple-medium: rgb(130, 85, 210);
+    --purple-dark: rgb(52, 0, 120);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: black;
+    max-width: 100vw !important;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+
+    letter-spacing: 4pt;
+    font-size: 50pt;
+    font-weight: 900;
+
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 14pt;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 16pt;
+}
+
+#stars-container {
+    z-index: 0;
+    position: fixed;
+}
+
+.app {
+    z-index: 99;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 22pt;
+    text-align: center;
+}
+
+.lilac {
+    color: var(--purple-light);
+}
+
+.purple {
+    color: var(--purple-medium);
+}
+
+/* ------- I N T R O */
+#intro {
+    z-index: 99;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#logo {
+    width: 30vw;
+    margin-bottom: 5vh;
+}
+
+#welcome {
+    font-weight: 700;
+}
+
+/* ---------------------------------------- A B O U T - M E ------------------------------------------*/
+#about-me {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1.aboutme {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    text-align: left;
+    letter-spacing: 4pt;
+    font-size: 50pt;
+    font-weight: 900;
+
+}
+
+#profile-pic {
+    width: 80%;
+    clip-path: circle();
+    /*filter: grayscale(100%);*/
+    text-align: center;
+    margin: 2vh 0 2vh 0;
+}
+
+.desc {
+    width: 31vw;
+    margin-right: 3vw;
+}
+
+.skills {
+    width: 31vw;
+    margin-left: 3vw;
+}
+
+h4.skills-text {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+
+    letter-spacing: 1pt;
+    font-size: 16pt;
+    font-weight: 900;
+    margin: 1vw;
+    width: 100%;
+    text-align: center;
+
+}
+
+.skills-container {
+    border-radius: 50px 50px 50px 50px;
+    border: 2px solid var(--purple-medium);
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.skills-title {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+
+    letter-spacing: 4pt;
+    font-size: 50pt;
+    font-weight: 900;
+
+}
+
+h4.skills-plus {
+    font-family: 'raleway', sans-serif;
+    color: var(--purple-medium);
+
+    letter-spacing: 1pt;
+    font-size: 22pt;
+    font-weight: 500;
+    margin: 0;
+    margin-right: 1vw;
+    /*position: absolute;*/
+
+}
+
+.titles-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+
+.icons-skills {
+    width: 0vw;
+    margin: 1vh;
+    transition: 0.4s;
+}
+
+.icons-skills:hover {
+    filter: sepia(90%) brightness(70%) contrast(200%) hue-rotate(200deg);
+    transition: 0.4s;
+}
+
+.upper-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    transition: 0.4s;
+
+}
+
+/* ----------------------------- M Y - P R O J E C T S -----------------------------------*/
+.projects {
+    z-index: 99;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1.projects-title {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    text-align: right;
+    letter-spacing: 4pt;
+    font-size: 50pt;
+    font-weight: 900;
+    width: 80vw;
+}
+
+.contenedor-projects {
+width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.each-project {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 70vh;
+    text-align: center;
+}
+
+.project-desc {
+    text-align: center;
+    width: 70vw;
+margin: 1vh;
+}
+
+.pic-project {
+    width: 100%;
+    object-fit: cover;
+}
+.info-project{
+    display: flex;
+
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+
+    flex-direction: column;
+}
+.links-container{
+    margin: 3vh 0;
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+.container-two{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+}
+.info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.anchor-link{
+}
+
+.link-img {
+    width: 3vw;
+margin: 0 2vw 0 2vw;
+    transition: 0.3s;
+}
+.link-img:hover {
+filter: grayscale(100%) brightness(500%);
+}
+.link-figure{
+
+}
+.title-project {
+    margin: 2vh;
+}
+
+.flechas {
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/* ----------------------------- C O N T A C T -----------------------------------*/
+
+.contact{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.contact-title{
+}
+.contact-text{
+    width: 40vw;
+    margin: 2vh;
+}
