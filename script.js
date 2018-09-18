@@ -56,4 +56,8 @@ $(document).ready(function () {
         }, 1000);
         return false;
     });
+
+    if (screen.width < 800){
+$('.about-me-desc').text('Interactive media design is the perfect combination between design and programming. Every platform needs to be centered in how the user feels during the experience and how they interact with it. I love to learn new things and experiment with new programmable technologies. Do you want to work together?')
+    }
 });

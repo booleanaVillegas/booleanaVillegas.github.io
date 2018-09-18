@@ -21,7 +21,8 @@ Vue.component('about-me', {
         Every good web, mobile, desktop and even physical platform needs to be centered in how the user feels during the experience
         and how they interact with it. This is the most important thing for me.<br><br>I am very dedicate and responsible in
             every work I do. I love to learn new things and experiment with new programmable technologies. Do you want
-            to work together? Feel free to Contact me!</p>
+            to work together?</p>
+         <a href="#contact" rel="relativeanchor"><p class="lilac feel-free" >Feel free to Contact me!</p>
     </div>
     <div class="titles-picture noselect">
         <h3 class="lilac">Juliana Villegas<br>Cali, Colombia</h3>
