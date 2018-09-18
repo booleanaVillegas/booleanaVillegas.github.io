@@ -13,6 +13,7 @@ var database = firebase.database();
 var getDevSkills= database.ref('english/skills/developer');
 var getDesignSkills= database.ref('english/skills/designer');
 var getProtoSkills= database.ref('english/skills/prototyping');
+var getProjects= database.ref('english/projects');
 
 var developer= [];
 
@@ -25,3 +26,12 @@ getDesignSkills.on('value', function (snapshot) {
 getProtoSkills.on('value', function (snapshot) {
     //console.log(snapshot.val())
 });*/
+let gottenProjects
+
+getProjects.once('value').then(function(snapshot) {
+    projects = snapshot.val();
+
+        carrousel(projects);
+
+});
+

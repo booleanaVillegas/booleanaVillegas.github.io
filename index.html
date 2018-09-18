@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:http="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:http="http://www.w3.org/1999/xhtml"
+      xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head>
     <!--METADATA-->
     <meta charset="UTF-8">
@@ -14,10 +15,13 @@
     <!--ADD-ONS-->
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue-animated-list.js"></script>
     <script
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
 
 </head>
 <body>
@@ -27,27 +31,24 @@
     <div id='stars3'></div>
 </div>
 
-<div id="app">
-   <intro></intro>
-    <about-me></about-me>
-<my-projects></my-projects>
-</div>
 
-<div class="contact">
-    <h1 class="contact-title">CONTACT ME</h1>
-    <p class="contact-text">You’ve just read a little bit about me, if you want to know more or you want me to be part of any of your projects, don’t hesitate to contact me!
-        <br>This portfolio was made from scratch with lots of love, using vue.js and firebase.</p>
-    <h3 class="purple">You can find me at:</h3>
-    <div class="links-container">
-        <a href="https://www.linkedin.com/in/jumavipe/" target="_blank"><img class="link-img" src="https://firebasestorage.googleapis.com/v0/b/booleana-s-portafolio.appspot.com/o/linkedin.svg?alt=media&token=68515f7a-00f3-47ad-9642-5144985ef424" alt=""></a>
-        <a href="https://github.com/booleanaVillegas" target="_blank"><img class="link-img" src="https://firebasestorage.googleapis.com/v0/b/booleana-s-portafolio.appspot.com/o/github.svg?alt=media&token=83edf83c-cd80-43fa-bedd-a2348ff23b3e" alt=""></a>
-        <a href="https://www.behance.net/jumavipe" target="_blank"><img class="link-img" src="https://firebasestorage.googleapis.com/v0/b/booleana-s-portafolio.appspot.com/o/behance.svg?alt=media&token=5509ba74-4821-4fd3-87a2-3704ae06c965" alt=""></a>
-        <a href="mailto:juliana.maria.villegas@gmail.com" target="_blank"><img class="link-img" src="https://firebasestorage.googleapis.com/v0/b/booleana-s-portafolio.appspot.com/o/mail.svg?alt=media&token=c64fa6a6-4abf-4bd9-bb15-64e5ddd8e540" alt=""></a></div>
+<div id="app">
+    <img :src='menuImg'
+         id="menu-button" alt="" v-on:click="showMenu">
+    <transition name="fade">
+    <menu-desplegable v-show='showingMenu'></menu-desplegable>
+    </transition>
+    <intro></intro>
+    <about-me></about-me>
+    <my-projects></my-projects>
+    <contact></contact>
 </div>
 
 
 <script src="services.js"></script>
 <script src="vue-controller.js"></script>
 <script src="script.js"></script>
+<script src="carousel.js"></script>
+
 </body>
 </html>
