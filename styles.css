@@ -667,7 +667,7 @@ p#project-description {
 
         height: 30vh;
         display: none;
-        background-color: magenta;
+        background-color: var(--purple-dark);
         width: 100%;
     }
 
