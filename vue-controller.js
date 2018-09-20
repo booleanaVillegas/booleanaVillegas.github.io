@@ -200,8 +200,8 @@ Vue.component('contact', {
     template: `
      <div id="contact" class="noselect">
     <h1 class="contact-title">CONTACT ME</h1>
-    <p class="contact-text">You’ve just read a little bit about me, but there's so much more, if you want to work together or you want me to be bring your ideas to life, contact me and we'll make it happen together!
-        <br>This portfolio was made from scratch with lots of love. dedication and using  Vue.js and Firebase.</p>
+    <p class="contact-text">You’ve just read a little bit about me, but there's so much more, if you want to work together or you want me to bring your ideas to life, contact me and we'll make it happen!
+        <br><br>This portfolio was made from scratch with lots of love and dedication, using  Vue.js and Firebase.</p>
     <h3 class="purple">You can find me at:</h3>
     <div class="links-container">
         <a href="https://www.linkedin.com/in/jumavipe/" target="_blank"><img class="link-img" src="https://firebasestorage.googleapis.com/v0/b/booleana-s-portafolio.appspot.com/o/linkedin.svg?alt=media&token=68515f7a-00f3-47ad-9642-5144985ef424" alt=""></a>
