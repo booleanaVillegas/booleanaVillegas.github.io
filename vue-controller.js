@@ -22,7 +22,7 @@ Vue.component('about-me', {
         and how they interact with it. This is the most important thing for me.<br><br>I am very dedicated and responsible in
             every work I do. I love learning new things and experimenting with new programmable technologies. Do you want
             to work together?</p>
-         <a href="#contact" rel="relativeanchor"><p class="lilac feel-free" >Feel free to Contact me!</p>
+         <a href="#contact" rel="relativeanchor"><p class="lilac feel-free" >Feel free to Contact me!</p></a>
     </div>
     <div class="titles-picture noselect">
         <h3 class="lilac">Juliana Villegas<br>Cali, Colombia</h3>
