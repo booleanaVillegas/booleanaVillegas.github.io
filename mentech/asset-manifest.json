@@ -9,7 +9,7 @@
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/css/main.d5e27b53.chunk.css.map": "/static/css/main.d5e27b53.chunk.css.map",
   "static/css/1.57c41606.chunk.css.map": "/static/css/1.57c41606.chunk.css.map",
-  "index.html": "/index.html",
+  "index.html": "https://booleanavillegas.github.io/mentech/index.html",
   "precache-manifest.481a76093db1cabebce1033b265383c0.js": "/precache-manifest.481a76093db1cabebce1033b265383c0.js",
   "service-worker.js": "/service-worker.js"
 }
