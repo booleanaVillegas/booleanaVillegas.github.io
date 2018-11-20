@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.d5e27b53.chunk.css",
-  "main.js": "/static/js/main.ad1c1b82.chunk.js",
-  "main.js.map": "/static/js/main.ad1c1b82.chunk.js.map",
-  "static/css/1.57c41606.chunk.css": "/static/css/1.57c41606.chunk.css",
-  "static/js/1.e02250da.chunk.js": "/static/js/1.e02250da.chunk.js",
-  "static/js/1.e02250da.chunk.js.map": "/static/js/1.e02250da.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.d5e27b53.chunk.css.map": "/static/css/main.d5e27b53.chunk.css.map",
-  "static/css/1.57c41606.chunk.css.map": "/static/css/1.57c41606.chunk.css.map",
+  "main.css": "https://booleanavillegas.github.io/mentech/static/css/main.d5e27b53.chunk.css",
+  "main.js": "https://booleanavillegas.github.io/mentech/static/js/main.ad1c1b82.chunk.js",
+  "main.js.map": "https://booleanavillegas.github.io/mentech/static/js/main.ad1c1b82.chunk.js.map",
+  "static/css/1.57c41606.chunk.css": "https://booleanavillegas.github.io/mentech/static/css/1.57c41606.chunk.css",
+  "static/js/1.e02250da.chunk.js": "https://booleanavillegas.github.io/mentech/static/js/1.e02250da.chunk.js",
+  "static/js/1.e02250da.chunk.js.map": "https://booleanavillegas.github.io/mentech/static/js/1.e02250da.chunk.js.map",
+  "runtime~main.js": "https://booleanavillegas.github.io/mentech/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "https://booleanavillegas.github.io/mentech/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.d5e27b53.chunk.css.map": "https://booleanavillegas.github.io/mentech/static/css/main.d5e27b53.chunk.css.map",
+  "static/css/1.57c41606.chunk.css.map": "https://booleanavillegas.github.io/mentech/static/css/1.57c41606.chunk.css.map",
   "index.html": "https://booleanavillegas.github.io/mentech/index.html",
-  "precache-manifest.481a76093db1cabebce1033b265383c0.js": "/precache-manifest.481a76093db1cabebce1033b265383c0.js",
-  "service-worker.js": "/service-worker.js"
+  "precache-manifest.481a76093db1cabebce1033b265383c0.js": "https://booleanavillegas.github.io/mentech/precache-manifest.481a76093db1cabebce1033b265383c0.js",
+  "service-worker.js": "https://booleanavillegas.github.io/mentech/service-worker.js"
 }
