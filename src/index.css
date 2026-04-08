@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Raleway:wght@300;500;700;900&display=swap');
+
+:root {
+  --purple-light: rgb(190, 160, 242);
+  --purple-medium: rgb(130, 85, 210);
+  --purple-dark: rgb(52, 0, 120);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  letter-spacing: 4px;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.lilac {
+  color: var(--purple-light);
+}
+
+.purple {
+  color: var(--purple-medium);
+}
+
+::selection {
+  background: var(--purple-medium);
+}
+
+/* Stars Background */
+#stars-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#stars, #stars2, #stars3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 1486px 1310px #FFF, 1561px 927px #FFF, 250px 1405px #FFF, 1511px 1291px #FFF, 1168px 320px #FFF,
+    1587px 915px #FFF, 1800px 1678px #FFF, 1293px 887px #FFF, 448px 1551px #FFF, 1087px 835px #FFF,
+    1828px 1237px #FFF, 1360px 1266px #FFF, 1755px 1510px #FFF, 51px 227px #FFF, 1447px 216px #FFF,
+    71px 1897px #FFF, 1266px 900px #FFF, 1926px 119px #FFF, 1782px 1788px #FFF, 1576px 1557px #FFF,
+    224px 495px #FFF, 1104px 642px #FFF, 426px 1276px #FFF, 1175px 574px #FFF, 795px 1949px #FFF,
+    1944px 707px #FFF, 1892px 880px #FFF, 271px 1115px #FFF, 476px 63px #FFF, 1537px 16px #FFF,
+    971px 395px #FFF, 1763px 1815px #FFF, 826px 1917px #FFF, 1681px 636px #FFF, 1364px 1410px #FFF,
+    1188px 410px #FFF, 194px 312px #FFF, 1891px 308px #FFF, 1790px 1835px #FFF, 1672px 713px #FFF,
+    489px 92px #FFF, 1811px 1516px #FFF, 1874px 45px #FFF, 1056px 1106px #FFF, 302px 1973px #FFF,
+    1652px 1670px #FFF, 90px 369px #FFF, 1680px 194px #FFF, 121px 916px #FFF, 1012px 508px #FFF,
+    755px 238px #FFF, 40px 1780px #FFF, 1794px 1883px #FFF, 786px 500px #FFF, 275px 1636px #FFF,
+    106px 718px #FFF, 1695px 318px #FFF, 1814px 131px #FFF, 245px 1280px #FFF, 1698px 760px #FFF,
+    1197px 1205px #FFF, 1289px 760px #FFF, 1901px 180px #FFF, 977px 103px #FFF, 451px 1181px #FFF,
+    1916px 1312px #FFF, 78px 1118px #FFF, 569px 1409px #FFF, 1396px 1779px #FFF, 140px 112px #FFF,
+    772px 1438px #FFF, 362px 944px #FFF, 1628px 1297px #FFF, 177px 1418px #FFF, 977px 908px #FFF,
+    934px 1200px #FFF, 527px 303px #FFF, 147px 1157px #FFF, 1500px 1719px #FFF, 1412px 844px #FFF;
+  animation: animStar 50s linear infinite;
+}
+
+#stars::after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 1486px 1310px #FFF, 1561px 927px #FFF, 250px 1405px #FFF, 1511px 1291px #FFF, 1168px 320px #FFF,
+    1587px 915px #FFF, 1800px 1678px #FFF, 1293px 887px #FFF, 448px 1551px #FFF, 1087px 835px #FFF,
+    1828px 1237px #FFF, 1360px 1266px #FFF, 1755px 1510px #FFF, 51px 227px #FFF, 1447px 216px #FFF,
+    71px 1897px #FFF, 1266px 900px #FFF, 1926px 119px #FFF, 1782px 1788px #FFF, 1576px 1557px #FFF,
+    224px 495px #FFF, 1104px 642px #FFF, 426px 1276px #FFF, 1175px 574px #FFF, 795px 1949px #FFF,
+    1944px 707px #FFF, 1892px 880px #FFF, 271px 1115px #FFF, 476px 63px #FFF, 1537px 16px #FFF,
+    971px 395px #FFF, 1763px 1815px #FFF, 826px 1917px #FFF, 1681px 636px #FFF, 1364px 1410px #FFF,
+    1188px 410px #FFF, 194px 312px #FFF, 1891px 308px #FFF, 1790px 1835px #FFF, 1672px 713px #FFF,
+    489px 92px #FFF, 1811px 1516px #FFF, 1874px 45px #FFF, 1056px 1106px #FFF, 302px 1973px #FFF,
+    1652px 1670px #FFF, 90px 369px #FFF, 1680px 194px #FFF, 121px 916px #FFF, 1012px 508px #FFF,
+    755px 238px #FFF, 40px 1780px #FFF, 1794px 1883px #FFF, 786px 500px #FFF, 275px 1636px #FFF,
+    106px 718px #FFF, 1695px 318px #FFF, 1814px 131px #FFF, 245px 1280px #FFF, 1698px 760px #FFF,
+    1197px 1205px #FFF, 1289px 760px #FFF, 1901px 180px #FFF, 977px 103px #FFF, 451px 1181px #FFF,
+    1916px 1312px #FFF, 78px 1118px #FFF, 569px 1409px #FFF, 1396px 1779px #FFF, 140px 112px #FFF,
+    772px 1438px #FFF, 362px 944px #FFF, 1628px 1297px #FFF, 177px 1418px #FFF, 977px 908px #FFF,
+    934px 1200px #FFF, 527px 303px #FFF, 147px 1157px #FFF, 1500px 1719px #FFF, 1412px 844px #FFF;
+}
+
+#stars2 {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 286px 795px #FFF, 1446px 301px #FFF, 105px 196px #FFF, 1787px 1957px #FFF, 1321px 1657px #FFF,
+    106px 392px #FFF, 929px 1464px #FFF, 388px 315px #FFF, 744px 958px #FFF, 640px 670px #FFF,
+    1129px 498px #FFF, 483px 1176px #FFF, 575px 825px #FFF, 237px 961px #FFF, 942px 1319px #FFF,
+    1897px 1830px #FFF, 1458px 1173px #FFF, 1419px 1330px #FFF, 1004px 401px #FFF, 1749px 1656px #FFF,
+    1856px 1699px #FFF, 1223px 1833px #FFF, 1310px 791px #FFF, 114px 207px #FFF, 373px 56px #FFF,
+    1043px 1647px #FFF, 1060px 244px #FFF, 1263px 1331px #FFF, 555px 1217px #FFF, 145px 638px #FFF,
+    940px 852px #FFF, 933px 1498px #FFF, 1317px 164px #FFF, 1364px 965px #FFF, 1910px 646px #FFF,
+    1529px 330px #FFF, 1234px 664px #FFF, 137px 683px #FFF, 1608px 1802px #FFF, 1279px 1199px #FFF;
+  animation: animStar 100s linear infinite;
+}
+
+#stars2::after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 286px 795px #FFF, 1446px 301px #FFF, 105px 196px #FFF, 1787px 1957px #FFF, 1321px 1657px #FFF,
+    106px 392px #FFF, 929px 1464px #FFF, 388px 315px #FFF, 744px 958px #FFF, 640px 670px #FFF,
+    1129px 498px #FFF, 483px 1176px #FFF, 575px 825px #FFF, 237px 961px #FFF, 942px 1319px #FFF,
+    1897px 1830px #FFF, 1458px 1173px #FFF, 1419px 1330px #FFF, 1004px 401px #FFF, 1749px 1656px #FFF,
+    1856px 1699px #FFF, 1223px 1833px #FFF, 1310px 791px #FFF, 114px 207px #FFF, 373px 56px #FFF,
+    1043px 1647px #FFF, 1060px 244px #FFF, 1263px 1331px #FFF, 555px 1217px #FFF, 145px 638px #FFF,
+    940px 852px #FFF, 933px 1498px #FFF, 1317px 164px #FFF, 1364px 965px #FFF, 1910px 646px #FFF,
+    1529px 330px #FFF, 1234px 664px #FFF, 137px 683px #FFF, 1608px 1802px #FFF, 1279px 1199px #FFF;
+}
+
+#stars3 {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 581px 759px #FFF, 1947px 1241px #FFF, 905px 1180px #FFF, 669px 1257px #FFF, 735px 860px #FFF,
+    599px 1726px #FFF, 1830px 939px #FFF, 1944px 827px #FFF, 232px 1887px #FFF, 1716px 476px #FFF,
+    1930px 1093px #FFF, 1402px 781px #FFF, 1060px 1524px #FFF, 1819px 1179px #FFF, 714px 680px #FFF,
+    925px 691px #FFF, 1164px 837px #FFF, 142px 1831px #FFF, 1095px 999px #FFF, 3px 166px #FFF;
+  animation: animStar 150s linear infinite;
+}
+
+#stars3::after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 581px 759px #FFF, 1947px 1241px #FFF, 905px 1180px #FFF, 669px 1257px #FFF, 735px 860px #FFF,
+    599px 1726px #FFF, 1830px 939px #FFF, 1944px 827px #FFF, 232px 1887px #FFF, 1716px 476px #FFF,
+    1930px 1093px #FFF, 1402px 781px #FFF, 1060px 1524px #FFF, 1819px 1179px #FFF, 714px 680px #FFF,
+    925px 691px #FFF, 1164px 837px #FFF, 142px 1831px #FFF, 1095px 999px #FFF, 3px 166px #FFF;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+
+/* Section base styles */
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+}
