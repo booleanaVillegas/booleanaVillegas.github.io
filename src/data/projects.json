@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Mentech",
+    "description": "A mental health platform that connects users with professionals and provides resources for mental wellness.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+    "links": {
+      "github": "https://github.com/booleanaVillegas",
+      "live": "#"
+    }
+  },
+  {
+    "id": 2,
+    "title": "ZOE Bot",
+    "description": "An AI-powered chatbot designed to help students navigate university resources and answer common questions.",
+    "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800",
+    "links": {
+      "github": "https://github.com/booleanaVillegas",
+      "live": "#"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Creative Portfolio",
+    "description": "A showcase of creative design work including branding, illustration, and digital art projects.",
+    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800",
+    "links": {
+      "github": "https://github.com/booleanaVillegas",
+      "behance": "https://www.behance.net/jumavipe"
+    }
+  },
+  {
+    "id": 4,
+    "title": "E-Commerce App",
+    "description": "A full-stack e-commerce application with cart functionality, payment integration, and user authentication.",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800",
+    "links": {
+      "github": "https://github.com/booleanaVillegas",
+      "live": "#"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Weather Dashboard",
+    "description": "A real-time weather dashboard with beautiful visualizations and location-based forecasts.",
+    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800",
+    "links": {
+      "github": "https://github.com/booleanaVillegas",
+      "live": "#"
+    }
+  }
+]

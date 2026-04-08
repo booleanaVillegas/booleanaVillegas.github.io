@@ -1,0 +1,46 @@
+{
+  "intro": {
+    "greeting": "Hello! My name is Juliana Villegas. I am an interactive media designer. I love mobile, web and creative development.",
+    "welcome": "Welcome to my portfolio!",
+    "scrollPrompt": "Do you want to know more about me?"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "description": [
+      "Interactive media design is the perfect combination between design and programming. Every good web, mobile, desktop and even physical platform needs to be centered in how the user feels during the experience and how they interact with it. This is the most important thing for me.",
+      "I am very dedicated and responsible in every work I do. I love learning new things and experimenting with new programmable technologies. Do you want to work together?"
+    ],
+    "contactPrompt": "Feel free to Contact me!",
+    "profile": {
+      "name": "Juliana Villegas",
+      "location": "Cali, Colombia",
+      "role": "Creative Developer",
+      "education": "Universidad Icesi"
+    }
+  },
+  "skills": {
+    "title": "MY SKILLS",
+    "categories": {
+      "development": ["React", "TypeScript", "JavaScript", "Node.js", "Python", "CSS"],
+      "design": ["Figma", "Adobe XD", "Photoshop", "Illustrator", "UI/UX"],
+      "prototyping": ["Framer", "InVision", "Principle", "After Effects"]
+    }
+  },
+  "projects": {
+    "title": "MY PROJECTS"
+  },
+  "contact": {
+    "title": "CONTACT ME",
+    "description": [
+      "You've just read a little bit about me, but there's so much more. If you want to work together or you want me to bring your ideas to life, contact me and we'll make it happen!",
+      "This portfolio was made from scratch with lots of love and dedication, using React and TypeScript."
+    ],
+    "socialPrompt": "You can find me at:",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/jumavipe/",
+      "github": "https://github.com/booleanaVillegas",
+      "behance": "https://www.behance.net/jumavipe",
+      "email": "juliana.maria.villegas@gmail.com"
+    }
+  }
+}
