@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "Morningstar Indexes",
-    "description": "A comprehensive platform providing access to a wide range of financial indexes, including stock, bond, and commodity indexes, with real-time data and analytics.",
-    "image": "/indexes.png",
+    "description": "Financial data platform providing real-time access to stock, bond, and commodity indexes with interactive analytics and visualizations.",
+    "image": "/indexes.gif",
     "links": {
       "live": "https://indexes.morningstar.com/"
     }
@@ -11,8 +11,8 @@
   {
     "id": 2,
     "title": "Bancolombia Design System",
-    "description": "Design system for Bancolombia (Colombia's Biggest Bank), providing reusable components, guidelines, and best practices for consistent UI/UX across all digital products.",
-    "image": "/bancolombia-design-system.png",
+    "description": "Design system for Colombia's largest bank, featuring reusable components and guidelines for consistent UI/UX across all digital products.",
+    "image": "/bancolombia.jpg",
     "links": {
       "behance": "https://www.behance.net/gallery/152005995/Sistema-de-Diseno-Bancolombia"
     }
@@ -20,18 +20,18 @@
   {
     "id": 3,
     "title": "Zoe Beauty",
-    "description": "School project for a beauty e-commerce platform offering a curated selection of makeup products and a seamless shopping experience.",
-    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800",
+    "description": "Beauty e-commerce platform with a curated selection of makeup products and a seamless shopping experience.",
+    "image": "/zoebeauty.gif",
     "links": {
-      "github": "https://github.com/booleanaVillegas",
-      "behance": "https://github.com/booleanaVillegas/juliana-villegas-taller-uno"
+      "github": "https://github.com/booleanaVillegas/juliana-villegas-taller-uno",
+      "behance": "https://www.behance.net/gallery/80973553/Zoe-Beauty"
     }
   },
   {
     "id": 4,
     "title": "Sketch wars",
-    "description": "A fun and interactive game where players connect through local network to see different parts of the game in each screen",
-    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800",
+    "description": "Multiplayer drawing game where players connect via local network, with each screen displaying a unique part of the gameplay.",
+    "image": "/sketchwars.png",
     "links": {
       "github": "https://github.com/booleanaVillegas/Sketch_wars",
       "behance": "https://www.behance.net/gallery/69262895/Sketch-Wars"
@@ -39,9 +39,9 @@
   },
   {
     "id": 5,
-    "title": "This portfolio and my UI portfolio",
-    "description": "This portfolio was built with React and Tailwind CSS, showcasing my projects and skills in UI design and development. Also you can check my behance for my UI designs done in college",
-    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800",
+    "title": "Creative Work",
+    "description": "This portfolio built with React and TypeScript, plus my Behance showcasing UI design work from university projects.",
+    "image": "/portfolio.png",
     "links": {
       "github": "https://github.com/booleanaVillegas/booleanaVillegas.github.io",
       "behance": "https://www.behance.net/jumavipe"
