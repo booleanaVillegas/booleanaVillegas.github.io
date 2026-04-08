@@ -1,52 +1,50 @@
 [
   {
     "id": 1,
-    "title": "Mentech",
-    "description": "A mental health platform that connects users with professionals and provides resources for mental wellness.",
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+    "title": "Morningstar Indexes",
+    "description": "A comprehensive platform providing access to a wide range of financial indexes, including stock, bond, and commodity indexes, with real-time data and analytics.",
+    "image": "/indexes.png",
     "links": {
-      "github": "https://github.com/booleanaVillegas",
-      "live": "#"
+      "live": "https://indexes.morningstar.com/"
     }
   },
   {
     "id": 2,
-    "title": "ZOE Bot",
-    "description": "An AI-powered chatbot designed to help students navigate university resources and answer common questions.",
-    "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800",
+    "title": "Bancolombia Design System",
+    "description": "Design system for Bancolombia (Colombia's Biggest Bank), providing reusable components, guidelines, and best practices for consistent UI/UX across all digital products.",
+    "image": "/bancolombia-design-system.png",
     "links": {
-      "github": "https://github.com/booleanaVillegas",
-      "live": "#"
+      "behance": "https://www.behance.net/gallery/152005995/Sistema-de-Diseno-Bancolombia"
     }
   },
   {
     "id": 3,
-    "title": "Creative Portfolio",
-    "description": "A showcase of creative design work including branding, illustration, and digital art projects.",
+    "title": "Zoe Beauty",
+    "description": "School project for a beauty e-commerce platform offering a curated selection of makeup products and a seamless shopping experience.",
     "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800",
     "links": {
       "github": "https://github.com/booleanaVillegas",
-      "behance": "https://www.behance.net/jumavipe"
+      "behance": "https://github.com/booleanaVillegas/juliana-villegas-taller-uno"
     }
   },
   {
     "id": 4,
-    "title": "E-Commerce App",
-    "description": "A full-stack e-commerce application with cart functionality, payment integration, and user authentication.",
+    "title": "Sketch wars",
+    "description": "A fun and interactive game where players connect through local network to see different parts of the game in each screen",
     "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800",
     "links": {
-      "github": "https://github.com/booleanaVillegas",
-      "live": "#"
+      "github": "https://github.com/booleanaVillegas/Sketch_wars",
+      "behance": "https://www.behance.net/gallery/69262895/Sketch-Wars"
     }
   },
   {
     "id": 5,
-    "title": "Weather Dashboard",
-    "description": "A real-time weather dashboard with beautiful visualizations and location-based forecasts.",
+    "title": "This portfolio and my UI portfolio",
+    "description": "This portfolio was built with React and Tailwind CSS, showcasing my projects and skills in UI design and development. Also you can check my behance for my UI designs done in college",
     "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800",
     "links": {
-      "github": "https://github.com/booleanaVillegas",
-      "live": "#"
+      "github": "https://github.com/booleanaVillegas/booleanaVillegas.github.io",
+      "behance": "https://www.behance.net/jumavipe"
     }
   }
 ]
