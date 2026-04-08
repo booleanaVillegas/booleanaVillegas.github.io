@@ -1,29 +1,29 @@
 {
   "intro": {
-    "greeting": "Hello! My name is Juliana Villegas. I am an interactive media designer. I love mobile, web and creative development.",
+    "greeting": "Hello! I'm Juliana Villegas, a Design Engineer with 6+ years of experience bridging the gap between design and development.",
     "welcome": "Welcome to my portfolio!",
     "scrollPrompt": "Do you want to know more about me?"
   },
   "about": {
     "title": "ABOUT ME",
     "description": [
-      "Interactive media design is the perfect combination between design and programming. Every good web, mobile, desktop and even physical platform needs to be centered in how the user feels during the experience and how they interact with it. This is the most important thing for me.",
-      "I am very dedicated and responsible in every work I do. I love learning new things and experimenting with new programmable technologies. Do you want to work together?"
+      "I specialize in building seamless, user-centric digital experiences from concept to production. With expertise in modern frontend frameworks and a strong design foundation, I transform complex requirements into intuitive, accessible interfaces.",
+      "I thrive at the intersection of design and code, collaborating with cross-functional teams to deliver products that delight users. I'm passionate about design systems, component libraries, and creating scalable solutions that bridge creative vision with technical excellence."
     ],
     "contactPrompt": "Feel free to Contact me!",
     "profile": {
       "name": "Juliana Villegas",
       "location": "Cali, Colombia",
-      "role": "Creative Developer",
-      "education": "Universidad Icesi"
+      "role": "Design Engineer",
+      "education": "Universidad Icesi - Cum Laude"
     }
   },
   "skills": {
     "title": "MY SKILLS",
     "categories": {
-      "development": ["React", "TypeScript", "JavaScript", "Node.js", "Python", "CSS"],
-      "design": ["Figma", "Adobe XD", "Photoshop", "Illustrator", "UI/UX"],
-      "prototyping": ["Framer", "InVision", "Principle", "After Effects"]
+      "development": ["React", "Vue.js", "Nuxt.js", "Angular", "TypeScript", "Node.js", "Flutter", "Spring Java"],
+      "design": ["Figma", "Adobe Creative Suite", "UI/UX Design", "Design Systems", "Accessibility"],
+      "prototyping": ["Component Libraries", "Responsive Design", "Cross-platform Development", "Agile/Scrum"]
     }
   },
   "projects": {
@@ -32,8 +32,8 @@
   "contact": {
     "title": "CONTACT ME",
     "description": [
-      "You've just read a little bit about me, but there's so much more. If you want to work together or you want me to bring your ideas to life, contact me and we'll make it happen!",
-      "This portfolio was made from scratch with lots of love and dedication, using React and TypeScript."
+      "I'm always excited to collaborate on projects that push the boundaries of design and technology. Whether you need a design engineer to bring your vision to life or want to discuss the latest in frontend development, let's connect!",
+      "This portfolio was crafted with React and TypeScript, showcasing the same attention to detail I bring to every project."
     ],
     "socialPrompt": "You can find me at:",
     "links": {
