@@ -1,6 +1,6 @@
 # Booleana's Portfolio
 
-A personal portfolio website built with React and TypeScript, featuring an animated star background and a modern, responsive design.
+A personal portfolio website built with React and TypeScript,a modern responsive design.
 
 ## Features
 
